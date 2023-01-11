@@ -12,7 +12,7 @@ const Search = () => {
         e.preventDefault();
         ctx.clearUsers();
         if (keyword === '') {
-            ctx.initAlert('Lütfen boş bırakmayınız!', 'danger');
+            ctx.initAlert('Please do not leave blank!', 'danger');
             ctx.setShow(true);
             ctx.setShowClearButton(false);
         } else {
